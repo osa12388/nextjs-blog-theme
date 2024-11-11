@@ -8,7 +8,6 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
      : 'Wszystkie prawa zastrzeżone 2024-2025 | Więcej o nas<br><a href="https://example.com" target="_blank" rel="noopener noreferrer">Odwiedź naszą stronę</a> ' ;
-: 'Wszystkie prawa zastrzeżone 2024-2025';
   
   return {
     name,
