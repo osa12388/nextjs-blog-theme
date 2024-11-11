@@ -8,9 +8,9 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
      : 'Wszystkie prawa zastrzeżone 2024-2025 | Więcej o nas';
-   const footerTextEx = process.env.BLOG_FOOTER_TEXT
-    ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-     : 'Wszystkie prawa zastrzeżone 2024-2025 ' ;
+   const footerTextEx = process.env.BLOG_FOOTER_TEXT_EX
+    ? decodeURI(process.env.BLOG_FOOTER_TEXT_EX)
+     : 'Wszystkie prawa zastrzeżone 2 2024-2025 ' ;
   
   return {
     name,
