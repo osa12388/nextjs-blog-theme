@@ -7,8 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Wszystkie prawa zastrzeżone 2024-2025 | Więcej o nas';
-     : 'Wszystkie prawa zastrzeżone 2024-2025 | Więcej o nas';
+     : 'Wszystkie prawa zastrzeżone 2024-2025 | Więcej o nas\n<a href="https://example.com" target="_blank" rel="noopener noreferrer">Odwiedź naszą stronę</a>';
 
   return {
     name,
